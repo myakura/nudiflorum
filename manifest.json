@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "Nudiflorum",
+	"version": "0.0.1",
+	"description": "Display absolute date and time in GitHub",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://github.com/*"
+			],
+			"exclude_matches": [
+				"https://github.com/settings/*"
+			],
+			"css": [
+				"nudiflorum_content.css"
+			]
+		}
+	]
+}

@@ -2,6 +2,6 @@ relative-time {
 	&::after {
 		content: "(" attr(datetime) ")";
 		margin-inline-start: 0.5ch;
-		font-size: 90%;
+		font-size: 85%;
 	}
 }

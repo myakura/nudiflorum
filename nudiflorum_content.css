@@ -17,7 +17,7 @@ relative-time {
 		&::after {
 			content: attr(datetime);
 			margin: 0;
-			max-width: 15ch;
+			max-width: 15.2ch;
 			overflow: hidden;
 		}
 	}
@@ -38,7 +38,7 @@ relative-time {
 			content: attr(datetime);
 			font-size: 85%;
 			margin: 0;
-			max-width: 15ch;
+			max-width: 15.2ch;
 			overflow: hidden;
 		}
 	}
@@ -53,7 +53,7 @@ relative-time {
 			content: attr(datetime);
 			font-size: 85%;
 			margin: 0;
-			max-width: 15ch;
+			max-width: 15.2ch;
 			overflow: hidden;
 		}
 	}

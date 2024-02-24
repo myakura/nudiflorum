@@ -5,3 +5,22 @@ relative-time {
 		font-size: 85%;
 	}
 }
+
+.notifications-list-item {
+	relative-time {
+		display: grid;
+		justify-items: start;
+		line-height: 1.6;
+		margin-inline-start: 2ch;
+		&::after {
+			content: attr(datetime);
+			font-size: 85%;
+			margin: 0;
+			max-width: 15ch;
+			overflow: hidden;
+		}
+	}
+	.AvatarStack {
+		align-self: center;
+	}
+}

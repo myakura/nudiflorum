@@ -2,7 +2,8 @@ relative-time {
 	&::after {
 		content: "(" attr(datetime) ")";
 		margin-inline-start: 0.5ch;
-		font-size: 85%;
+		font-size: 90%;
+		font-variant-numeric: tabular-nums;
 	}
 }
 

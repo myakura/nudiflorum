@@ -7,6 +7,7 @@ relative-time {
 	}
 }
 
+/* notifications */
 .notifications-list-item {
 	relative-time {
 		display: grid;
@@ -22,5 +23,38 @@ relative-time {
 	}
 	.AvatarStack {
 		align-self: center;
+	}
+}
+
+/* repositories */
+.react-last-commit-oid-timestamp {
+	align-items: center;
+
+	relative-time {
+		display: grid;
+		justify-items: start;
+		line-height: 1.4;
+		&::after {
+			content: attr(datetime);
+			font-size: 85%;
+			margin: 0;
+			max-width: 15ch;
+			overflow: hidden;
+		}
+	}
+}
+.react-directory-commit-age {
+	relative-time {
+		display: grid;
+		justify-items: start;
+		font-size: 90%;
+		line-height: 1.4;
+		&::after {
+			content: attr(datetime);
+			font-size: 85%;
+			margin: 0;
+			max-width: 15ch;
+			overflow: hidden;
+		}
 	}
 }

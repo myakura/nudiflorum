@@ -3,6 +3,10 @@
 	"name": "Nudiflorum",
 	"version": "0.0.8",
 	"description": "Display absolute date and time in GitHub",
+	"icons": {
+		"48": "icon.png",
+		"96": "icon.png"
+	},
 	"content_scripts": [
 		{
 			"matches": [

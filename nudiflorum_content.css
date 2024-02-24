@@ -58,3 +58,22 @@ relative-time {
 		}
 	}
 }
+
+/* actions */
+span:has(> .octicon-calendar) {
+	.octicon-calendar {
+		vertical-align: text-top;
+	}
+	relative-time {
+		display: inline-grid;
+		justify-items: start;
+		line-height: 1.4;
+		&::after {
+			content: attr(datetime);
+			font-size: 85%;
+			margin: 0;
+			max-width: 15.2ch;
+			overflow: hidden;
+		}
+	}
+}

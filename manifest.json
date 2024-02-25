@@ -19,5 +19,11 @@
 				"nudiflorum_content.css"
 			]
 		}
-	]
+	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{5dcb8b18-612a-43bc-808f-52cce38d44f8}",
+			"strict_min_version": "117.0"
+		}
+	}
 }

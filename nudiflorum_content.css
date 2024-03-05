@@ -79,7 +79,7 @@ span:has(> .octicon-calendar) {
 }
 
 /* releases */
-#release_page_title + div > section > div > div {
+#release_page_title + div > section > div > div:first-child {
 	relative-time {
 		display: grid;
 		justify-items: start;

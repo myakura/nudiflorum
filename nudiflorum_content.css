@@ -77,3 +77,19 @@ span:has(> .octicon-calendar) {
 		}
 	}
 }
+
+/* releases */
+#release_page_title + div > section > div > div {
+	relative-time {
+		display: grid;
+		justify-items: start;
+		line-height: 1.4;
+		&::after {
+			content: attr(datetime);
+			font-size: 85%;
+			margin: 0;
+			max-width: 14.8ch;
+			overflow: hidden;
+		}
+	}
+}
